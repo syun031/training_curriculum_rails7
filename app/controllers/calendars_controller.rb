@@ -15,15 +15,7 @@ class CalendarsController < ApplicationController
   private
 
   def plan_params
-<<<<<<< HEAD
-<<<<<<< Updated upstream
     params.require(:plan_params).permit(:date, :plan)
-=======
-    params.require(:plan).permit(:date, :plan)
->>>>>>> Stashed changes
-=======
-    params.require(:calendars).permit(:date, :plan)
->>>>>>> parent of fcbaf9b (Issue4)
   end
 
   def getWeek
